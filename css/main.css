@@ -1,0 +1,120 @@
+.mobile-bg {
+    position: fixed;
+    top: 0;
+    background: url(../img/blur.png) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.main {
+    padding-top: 40px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+}
+.title h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+}
+.border-bottom {
+    width: 60px;
+    height: 5px;
+    background-color: #59253E;
+}
+/* Trainer - block */
+.wrapper-trainer {
+    display: flex;
+}
+/* img */
+
+.trainer {
+    padding-top: 95px;
+    padding-bottom: 75px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.trainer-img img{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 3px;
+}
+/* desc */
+.trainer-description {
+    background-color: #fff;
+}
+.trainer-name h2 {
+    background-color: #fff;
+    padding: 20px 0 0 10px;
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #0D0D0D;
+}
+.trainer-pos {
+    padding-left: 10px;
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #332F3C;
+}
+.trainer-maind {
+    padding: 10px 10px 60px 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+.trainer-button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    width: 39%;
+    height: 36px;
+    background: #F24B88;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+    margin-left: 57%;
+    margin-bottom: 5%;
+    color: #FFFFFF;
+}
+.trainer-button:hover{
+    background-color: #7a0152;
+    transition: ease-in-out 0.2s;
+}
+.mobile-buutn-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-button {
+    width: 90px;
+    height: 36px;
+    margin: 20px 0;
+    display: none;
+}
+.bottom-line {
+    margin: 0px auto;
+    width: 98%;
+    height: 1px;
+    background-color: #f2f2f2;
+}
