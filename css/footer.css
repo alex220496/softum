@@ -86,7 +86,7 @@
     white-space: nowrap;
 }
 [class*="footer-"] a:hover {
-    color: rgb(179, 179, 179);
+    color: #F24B88;
     transition: ease-in-out 0.2s;
 }
 /* FORM */
