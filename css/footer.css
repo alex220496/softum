@@ -85,6 +85,10 @@
     text-decoration: none;
     white-space: nowrap;
 }
+[class*="footer-"] a:hover {
+    color: rgb(179, 179, 179);
+    transition: ease-in-out 0.2s;
+}
 /* FORM */
 .form-lable {
     font-family: 'Poppins';
