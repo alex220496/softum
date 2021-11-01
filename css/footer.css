@@ -84,6 +84,7 @@
     color: #FFFFFF;
     text-decoration: none;
     white-space: nowrap;
+    cursor: pointer;
 }
 [class*="footer-"] a:hover {
     color: #F24B88;
@@ -91,6 +92,7 @@
 }
 /* FORM */
 .form-lable {
+    cursor: pointer;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -126,6 +128,7 @@
     border-radius: 5px;
     border: none;
     color: #FFFFFF;
+    cursor: pointer;
 }
 .subscribe-btn:hover {
     background-color: #7a0152;
